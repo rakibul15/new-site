@@ -1,0 +1,375 @@
+/*-----------------BODY START-------------------------------*/
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin:0;
+}
+/*------------------------BODY END----------------------*/
+
+/*----------------------HEADER START-------------------*/
+header {
+    background-color: blueviolet;
+    padding:30px;
+
+}
+.logo{
+    
+}
+.logo img{
+    width:100%;
+    width: 65px;
+    height: auto;
+}
+.left_content{
+    width: 50%;
+    float: left;
+    display:inline-flex;
+
+}
+.left_content h1{
+    font-size: 20px;
+    color: antiquewhite;
+    font-style: normal;
+    font-family: 'Pacifico', cursive;
+}
+nav{
+    text-align: right;
+}
+nav ul{
+    margin-right: 20px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+}
+nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+   
+}
+a:hover{
+    color: black;
+}
+/*--------------------------------------------------HEADER END-----------------------------------------*/
+
+
+/*--------------------------------------------------BANNER AREA START----------------------------------*/
+    .banner_area{
+        background-color:#40E0D0;
+        height: 600px;
+        position: relative;
+        text-align: center;
+    }
+    
+  .banner_content{
+      position:absolute;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%,-50%); 
+     
+  }
+  .banner_content img{
+    margin-top: 80px;
+    width: 300px;
+}
+  .banner_content h2{
+      font-size: 50px;
+      font-family: 'Righteous', cursive;
+    }
+
+  .underline {
+    margin-top: -30px;
+  }
+  .underline p{
+    position: relative;
+  }
+  .underline p::before {
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 50px;
+    background:black;
+    margin-left: -52px;
+    margin-top: 15px;
+}
+
+.underline p::after {
+  position: absolute;
+  content: "";
+  height: 6px;
+  width: 50px;
+  background:black;
+  margin-top: 15px;
+}
+
+  .underline p i{
+      font-size: 30px;
+  }
+  .banner_content p{
+      font-size: 20px;
+  }
+ 
+/*--------------------------------------------------BANNER AREA END----------------------------------*/
+.service_area{
+    background-size: cover;
+    height: 100vh;
+
+}
+.portfolio_hd{
+    text-align: center;
+    margin-top: 50px;
+}
+.portfolio_hd h1{
+    font-size:40px;
+}
+.portfolio_hd p{
+    font-size:30px;
+    margin-top: -30px;
+    position: relative;
+}
+  .portfolio_hd p::before {
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 50px;
+    background:black;
+    margin-left: -52px;
+    margin-top: 15px;
+}
+
+.portfolio_hd p::after {
+  position: absolute;
+  content: "";
+  height: 6px;
+  width: 50px;
+  background:black;
+  margin-top: 15px;
+}
+
+.container{
+    width:100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.service1{
+        width:30%;
+        padding:15px;
+        float:left;
+        display:block;
+    }
+.service1 img{
+    width:330px;
+    transition: transform .5s;
+    margin: 0 auto;
+}
+.service1 :hover{
+    transform: scale(1.2);
+}
+/*----------------------------------------PORTFOLIO END-------------------------------------------------*/
+
+.about{
+    background-size: cover;
+    height:500px;
+    width:100%;
+    background-color: #40E0D0;
+    margin-top: 150px;
+}
+.about_hd{
+    text-align: center;
+    padding: 50px;
+}
+.about_hd h1{
+    font-size:40px;
+
+}
+.about_hd i{
+    font-size:30px;
+}
+.about_hd p{
+    font-size:30px;
+    margin-top: -30px;
+    position: relative
+}
+  .about_hd p::before {
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 50px;
+    background:black;
+    margin-left: -52px;
+    margin-top: 15px;
+}
+
+.about_hd p::after {
+  position: absolute;
+  content: "";
+  height: 6px;
+  width: 50px;
+  background:black;
+  margin-top: 15px;
+}
+
+.content1{
+    width:48%;
+    float:left;
+    margin-top:-50px;
+}
+.content1 p{
+    text-align: center;
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+
+ .button {
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 22px;
+    margin: 0 auto;
+    display: block;
+    background:#40E0D0;
+    color: black;
+    border: 2px solid black;
+    border-radius: 9px;
+    transition: 0.3s all ease;
+    margin-top: 40px;
+ }
+ .button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    color: white;
+    background-color: black;
+ }
+
+ /*----------------------------------------------CONTACT ME START---------------------------------*/
+ .contact{
+    width:100%;
+    margin-top: 150px;
+    margin-top: -70px;
+}
+.contact_hd{
+    text-align: center;
+    padding: 50px;
+}
+.contact_hd h1{
+    font-size:40px;
+
+}
+.contact_hd i{
+    font-size:30px;
+}
+.contact_hd p{
+    font-size:30px;
+    margin-top: -30px;
+    position: relative
+}
+  .contact_hd p::before {
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 50px;
+    background:black;
+    margin-left: -52px;
+    margin-top: 15px;
+}
+
+.contact_hd p::after {
+  position: absolute;
+  content: "";
+  height: 6px;
+  width: 50px;
+  background:black;
+  margin-top: 15px;
+}
+
+input[type=text],[type=email], select, textarea {
+    width: 100%; 
+    padding: 15px;  
+    margin-top: 6px; 
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size:18px;
+    
+}
+
+input[type=submit] {
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 15px 30px;
+    font-size: 20px;
+    display: block;
+    color: black;
+    border: 2px solid black;
+    border-radius: 9px;
+    transition: 0.3s all ease;
+    margin-top: 40px;
+}
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.container {
+    padding: 20px;
+    margin-top:-30px;
+}
+.other_info{
+    background-size: cover;
+    height:200px;
+    width:100%;
+    background-color: #40E0D0;
+    padding-top: 20px;
+}
+.address{
+    width:32%;
+    float:left;
+    text-align: center;
+}
+.social{
+    width:32%;
+    float:left;
+    text-align: center;
+   
+}
+.social i{
+    font-size: 50px;
+   
+}
+.speech{
+    width:32%;
+    float:left;
+    text-align: center;
+}
+.speech p{
+    font-size: 20px;
+}
+.fa-facebook:hover{
+    color: blue;
+}
+.fa-youtube:hover{
+    color:red;
+}
+.fa-instagram:hover{
+    color: orangered;
+}
+.fa-twitter-square:hover{
+    color:blue;
+}
+/*------------------------------FOOTER-------------------------------------------*/
+
+.footer{
+    height: 50px;
+    width:100%;
+    background-color: blueviolet;
+    text-align: center;
+    padding-top: 20px;
+}
+
